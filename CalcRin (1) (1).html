@@ -1,0 +1,39 @@
+﻿<html>
+
+<head>  
+<title>Главная  страница</title>
+<script src="CalcRin.js"></script> 
+
+</head>
+
+
+<body>
+    <form name="Form1" method="post"  enctype="multipart/form-data" id="Form1">
+    <input type="text" name="text1" id="text1"  value="0"  maxlength="15" ><br><br>    
+
+    <input type="button" value="1" onclick="addnum(1)"> 
+    <input type="button" value="2">
+    <input type="button" value="3">
+    <input type="button" value="+" onclick='deistvie("plus")'> <br>
+    <input type="button" value="4">
+    <input type="button" value="5">
+    <input type="button" value="6">
+    <input type="button" value="-"> <br>
+    <input type="button" value="7">
+    <input type="button" value="8">
+    <input type="button" value="9">
+    <input type="button" value="/"> <br>
+    <input type="button" value="0">
+    <input type="button" value="*">
+    <input type="button" value="D">
+    <input type="button" value="-" onclick='deistvie("minus")'> <br>
+    <input type="button" value="=" onclick='deistvie("ravno")' size="20"> <br> <br> <br>
+
+    
+    flag:<input type="text"  name="text2" id="text2" value=""><br> 
+    mem:<input type="text"  name="text3" id="text3" value=""><br>
+    operaciya: <input type="text" name="text4"  id="text4" value="">
+</form>
+</body>
+
+</html>
